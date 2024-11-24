@@ -12,7 +12,7 @@
 
 <!-- . -->
 
-<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #e2f3c9;" stylesheets="@CourseL.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.CourseListController">
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #e2f3c9;" stylesheets="@values/CourseL.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.CourseListController">
 
     <children>
 
@@ -51,7 +51,10 @@
                 <Font name="Impact" size="60.0" />
             </font>
         </Text>
-        <Button fx:id="homeButton" layoutX="155.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleBackButton" styleClass="back" stylesheets="@../../../values/style.css" text="Home" />
+        <Button fx:id="homeButton" layoutX="155.0" layoutY="190.0" mnemonicParsing="false" onAction="#handleBackButton" style="-fx-background-color: tranparent; -fx-text-fill: black; -fx-font-family: Impact; -fx-font-size: 27;" styleClass="back" stylesheets="@values/style.css" text="Home">
+         <font>
+            <Font name="Impact" size="27.0" />
+         </font></Button>
         <ImageView fitHeight="61.0" fitWidth="74.0" layoutX="104.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../../../Images/home.png" />
