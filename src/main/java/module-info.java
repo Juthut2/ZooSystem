@@ -10,6 +10,7 @@ module com.example.zoosystem {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires jdk.compiler;
 
     opens com.example.zoosystem to javafx.fxml;
     exports com.example.zoosystem;
