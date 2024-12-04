@@ -12,7 +12,7 @@ public class HomePage extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         // Updated FXML path
-        FXMLLoader fxmlLoader = new FXMLLoader(HomePage.class.getResource("Homepage.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HomePage.class.getResource("HomePage.fxml"));
 
 
         // Load the FXML file and set the scene
