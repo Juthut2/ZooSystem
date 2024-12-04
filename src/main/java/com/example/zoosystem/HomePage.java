@@ -8,10 +8,17 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class HomePage extends Application {
+
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HomePage.class.getResource("homepage.fxml"));
+        // Updated FXML path
+        FXMLLoader fxmlLoader = new FXMLLoader(HomePage.class.getResource("Homepage.fxml"));
+
+
+        // Load the FXML file and set the scene
         Scene scene = new Scene(fxmlLoader.load());
+
+        // Set the title and display the stage
         stage.setTitle("Modeng Zoo Management System");
         stage.setScene(scene);
         stage.show();
